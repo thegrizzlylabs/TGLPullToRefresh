@@ -7,8 +7,6 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 ## Installation
@@ -20,9 +18,21 @@ it, simply add the following line to your Podfile:
 pod "TGLPullToRefresh"
 ```
 
+## Usage
+
+In `viewDidLoad`, `awakeFromNib`:
+```Objective-C
+[self.tableView tgl_setupPullToRefreshWithView:self.pullToRefreshActivityView handler:^{
+  // Load data
+  // …
+}];
+```
+
+TGLPullToRefresh should work on any UIScrollView.
+
 ## Author
 
-bvirlet, bruno.virlet@gmail.com
+Bruno Virlet, bruno.virlet@gmail.com
 
 ## License
 

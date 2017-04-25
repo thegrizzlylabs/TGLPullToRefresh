@@ -1,0 +1,16 @@
+PODS:
+  - TGLPullToRefresh (0.1.0)
+
+DEPENDENCIES:
+  - TGLPullToRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  TGLPullToRefresh:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TGLPullToRefresh: b861825dce206207289cbfbca3f1cf922d523699
+
+PODFILE CHECKSUM: aa7a7452b9cf984f6cde36af2d5bea7c0896f7fd
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module TGLPullToRefresh {
+  umbrella header "TGLPullToRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TGLPullToRefresh_Tests' do
+  pod 'TGLPullToRefresh', :path => '../'
+  
+  
+end
